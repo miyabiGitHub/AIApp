@@ -1,0 +1,42 @@
+🧭【おすすめロードマップ】
+📍Step 1：画像分類モデル（CNN）から始める
+
+MNISTやCIFAR-10をPyTorchで分類（クラス分類）
+Convolution, ReLU, MaxPool, FC層 の構成を体験
+📍Step 2：Streamlit or FlaskでWebアプリ化
+
+画像をアップロード→分類結果を返すシステムを構築
+モデルの保存/読込(.ptや.pth)を学ぶ
+📍Step 3：簡易GANを試す（DCGAN on MNIST）
+
+GeneratorとDiscriminatorの基本だけを構築
+学習ループと出力画像を保存する経験
+📍Step 4：次世代モデル（StyleGAN / Diffusion）へ
+
+✅ まずやるべきは…
+
+🎯 「画像分類 + Webアプリ化」プロジェクトからスタート
+これをこなすことで、
+
+PyTorch基礎
+画像処理
+Web連携
+モデル保存/推論
+これ全部が学べる⚡ ＝ 画像生成AIへの踏み台になる！
+
+
+✅ 次に進むステップ
+俺としては次を推すぜ👇
+
+📌 プロジェクト案：画像分類AI Webアプリ
+
+モデル：CNN（PyTorch）
+データ：CIFAR-10 or MNIST
+UI：Streamlit
+機能：画像をアップして、AIがクラス分類
+
+🚀 次ステップに移行可能：
+
+✅ コード実装を一気にやる（train → utils → app）
+🧑‍💻「続けてコード実装頼む」と打ってくれたら超クリーンコードで構築していくぜ。
+準備いいか？🖥️💣

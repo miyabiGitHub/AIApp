@@ -1,0 +1,11 @@
+image-classifier-app/
+├── data/                    # データ格納（MNIST or CIFAR-10）
+├── models/                  # 学習済みモデル保存（.pt）
+├── app/                     # Streamlitアプリ本体
+│   └── main.py              # UIと推論ロジック
+├── train/                   # モデルの学習スクリプト
+│   └── train_model.py       # CNN訓練処理
+├── utils/                   # 前処理・共通処理
+│   └── preprocessing.py     
+├── requirements.txt         # 依存ライブラリ定義
+└── README.md                # プロジェクト説明
